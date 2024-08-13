@@ -47,6 +47,20 @@
             justify-content: center;
             align-items: flex-end;
         }
+            .video-container {
+            width: 100%;
+            height: auto;
+            margin: 0; /* Remove margins */
+            padding: 0; /* Remove padding */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .video-container video {
+            width: 100%;
+            height: auto;
+            object-fit: cover; /* Ensure the video covers the container without gaps */
+        }
  @keyframes float-in {
             from {
                 opacity: 0;
